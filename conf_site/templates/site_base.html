@@ -43,7 +43,7 @@
             </div>
             {#    <a href="{% url "home" %}">{% box "logo" %}<img src="{{ STATIC_URL }}images/PyDataSeattleLogo.svg" alt="{{ SITE_NAME }}"></a> #}
             <div class="collapse navbar-collapse navbar-responsive-collapse">
-                <ul class="nav navbar-nav">               
+                <ul class="nav navbar-nav">
                 {% sitetree_menu from "main" include "trunk" template "menu_bootstrap3.html" %}
                 {% include "_account_bar.html" %}
                 </ul>
@@ -72,7 +72,7 @@
             </div>
         {% endblock %}
         <footer class="footer row">
-            <div class="large-12 columns">
+            <div class="large-12 columns text-center">
                 <h5>The PyData Conference Series is brought to you by <a href="http://numfocus.org/">NumFOCUS Foundation</a>. </h5>
             </div>
         </footer>
