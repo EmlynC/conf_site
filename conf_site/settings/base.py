@@ -146,11 +146,11 @@ INSTALLED_APPS = [
 
     # external
     "account",
+    "analytical",
     "django_extensions",
     "easy_thumbnails",
     "eventlog",
     "markitup",
-    "metron",
     "reversion",
     "sitetree",
     "taggit",

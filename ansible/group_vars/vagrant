@@ -1,6 +1,7 @@
 database_user: vagrant
 django_database: vagrant
 environment_type: dev
+google_analytics_id: UA-00000-0
 subdirectory: /vagrant
 website_domain: localhost
 website_port: 8080
