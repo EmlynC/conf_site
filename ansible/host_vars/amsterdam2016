@@ -3,5 +3,7 @@ django_database: amsterdam2016
 git_version: amsterdam2016
 google_analytics_id: UA-41850464-4
 subdirectory: /amsterdam2016
+time_format: "G:i"
+timezone: Europe/Amsterdam
 website_domain: pydata.org
 website_url: http://pydata.org{{ subdirectory }}
